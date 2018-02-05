@@ -1,0 +1,52 @@
+& {
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: px(696);
+    padding-top: px(92);
+    background-image: url('../img/raffle_bg.png');
+    background-size: cover;
+
+    div {
+        display: flex;
+        position: relative;
+        flex-flow: column nowrap;
+        width: px(644);
+        margin-left: px(320);
+        font-weight: 100;
+
+        h3 {
+            color: $color1;
+            font-family: 'fb_constructorregular', Arial, sans-serif;
+            font-size: px(44);
+            font-weight: normal;
+            line-height: px(48);
+            text-align: right;
+        }
+
+        span {
+            color: $color2;
+            font-family: 'fb_constructorregular', Arial, sans-serif;
+            font-size: px(56);
+            font-weight: normal;
+            text-align: right;
+        }
+    }
+
+    a {
+        display: block;
+        width: px(446);
+        margin: px(20) px(20) 0 0;
+        padding: px(16) 0 px(8);
+        border: 1px solid $color3;
+        border-radius: 5px;
+        background-color: $color4;
+        color: $color1;
+        font-family: 'fb_reformanarrowmedium', Arial, sans-serif;
+        font-size: px(54);
+        text-align: center;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,127 @@
+& {
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: px(722);
+    padding-top: px(88);
+    background: url('../img/howItWorks_bg.jpg') no-repeat;
+    background-size: cover;
+
+    .text {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        margin-bottom: px(88);
+        font-size: px(60);
+
+        span {
+            margin-right: px(18);
+            color: $color1;
+            font-family: 'fb_constructorlight', Arial, sans-serif;
+            font-weight: 100;
+        }
+
+        h3 {
+            color: $color1;
+            font-family: 'fb_constructorbold', Arial, sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    .stages {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: px(1034);
+        margin-bottom: px(66);
+        margin-left: px(14);
+        color: $color1;
+
+        div {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            width: px(208);
+        }
+
+        .fourth {
+            span {
+                display: block;
+                width: px(120);
+                height: px(120);
+                margin-bottom: px(30);
+                background: url('../img/upload_icon.png') no-repeat center;
+                background-size: px(120);
+            }
+        }
+
+        .third {
+            span {
+                display: block;
+                width: px(120);
+                height: px(120);
+                margin-bottom: px(30);
+                background: url('../img/program_icon.png') no-repeat center;
+                background-size: px(120);
+            }
+        }
+
+        .second {
+            span {
+                display: block;
+                width: px(120);
+                height: px(120);
+                margin-bottom: px(30);
+                background: url('../img/check_icon.png') no-repeat center;
+                background-size: px(120);
+            }
+        }
+
+        .first {
+            span {
+                display: block;
+                width: px(120);
+                height: px(120);
+                margin-bottom: px(30);
+                background: url('../img/enroll_icon.png') no-repeat center;
+                background-size: px(120);
+            }
+        }
+
+        h5 {
+            margin-bottom: px(36);
+            font-family: 'fb_constructorbold', Arial, sans-serif;
+            font-size: px(28);
+        }
+
+        p {
+            font-size: px(16);
+            text-align: center;
+            line-height: px(18);
+            font-family: 'fb_constructorregular', Arial, sans-serif;
+        }
+    }
+
+    .signUp {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        a {
+            display: block;
+            width: px(400);
+            padding: px(18) px(20) px(6);
+            border: 1px solid $color3;
+            border-radius: 5px;
+            background-color: $color4;
+            color: $color1;
+            font-family: 'fb_reformanarrowmedium', Arial, sans-serif;
+            font-size: px(52);
+            font-weight: bold;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+    }
+}

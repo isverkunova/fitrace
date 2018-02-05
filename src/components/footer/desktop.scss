@@ -1,0 +1,38 @@
+& {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: px(100);
+
+    ul {
+        display: flex;
+        width: px(806);
+        margin: 0 auto;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        li {
+            a {
+                display: block;
+                color: $color2;
+                font-family: 'fb_hachaluzimmedium', Arial, sans-serif;
+                font-size: px(28);
+                text-decoration: none;
+            }
+        }
+    }
+
+    p {
+        margin: px(88) 0 px(120);
+        color: $color4;
+        font-size: px(26);
+        font-weight: 100;
+        word-spacing: px(1.4);
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+        span {
+            font-family: Arial, sans-serif;
+            font-size: px(28);
+        }
+    }
+}

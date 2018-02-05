@@ -1,0 +1,40 @@
+@import '../desktop';
+
+& {
+    .upperCapiton {
+        display: flex;
+        position: absolute;
+        top: px(-170);
+        left: px(1020);
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        width: px(248);
+
+        h3 {
+            color: $color2;
+            font-size: px(60);
+            letter-spacing: px(2);
+        }
+
+        h4 {
+            color: $color2;
+            font-size: px(64);
+            font-weight: 100;
+        }
+    }
+
+    .prizesList {
+        .prizeThird {
+            height: px(471);
+        }
+
+        .prizeFirst {
+            height: px(471);
+        }
+
+        .prizeSecond {
+            height: px(471);
+        }
+    }
+}

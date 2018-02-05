@@ -1,0 +1,98 @@
+& {
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    .upperCapiton {
+        display: flex;
+        position: absolute;
+        top: px(-168);
+        left: px(900);
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        width: px(248);
+
+        h3 {
+            color: $color2;
+            font-family: 'fb_constructorbold', Arial, sans-serif;
+            font-size: px(62);
+            font-weight: bold;
+            letter-spacing: px(2);
+        }
+
+        h4 {
+            margin-left: px(24);
+            color: $color2;
+            font-family: 'fb_constructorlight', Arial, sans-serif;
+            font-size: px(60);
+            letter-spacing: .7px;
+        }
+    }
+
+    .prizesList {
+        display: flex;
+        position: relative;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: px(20);
+
+        .prizeThird {
+            width: 33%;
+            //width: px(670);
+            height: px(424);
+            background: url('../img/prizeThird.jpg') no-repeat;
+            background-size: 100%;
+            //background-size: px(674);
+        }
+
+        .prizeFirst {
+            width: 33%;
+            //width: px(670);
+            height: px(424);
+            background: url('../img/prizeFirst.jpg') no-repeat;
+            background-size: 100%;
+            //background-size: px(674);
+        }
+
+        .prizeSecond {
+            width: 33%;
+            //width: px(670);
+            height: px(424);
+            background: url('../img/prizeSecond.jpg') no-repeat;
+            background-size: 100%;
+            //background-size: px(674);
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: px(-20);
+            width: px(1570);
+            height: px(19);
+            background: url('../img/longStripes.png') no-repeat;
+            background-size: px(1570);
+        }
+    }
+
+    .signUp {
+        width: inherit;
+
+        a {
+            display: block;
+            padding: px(10) px(20);
+            border: 1px solid $color1;
+            border-radius: 5px;
+            background-color: $color3;
+            -moz-box-shadow: 0 0 0 2px rgba(162, 205, 86, 1);
+            -webkit-box-shadow: 0 0 0 2px rgba(162, 205, 86, 1);
+            box-shadow: 0 0 0 2px rgba(162, 205, 86, 1);
+            color: $color1;
+            text-decoration: none;
+        }
+    }
+}

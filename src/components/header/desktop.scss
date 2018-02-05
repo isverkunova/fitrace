@@ -1,0 +1,119 @@
+& {
+    display: flex;
+    flex-flow: column nowrap;
+    height: px(892);
+    background-image: url('../img/header_bg.jpg');
+    background-size: cover;
+
+    .menu {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-end;
+
+        .button {
+            display: block;
+            margin: px(20) px(-12) 0 0;
+            padding: px(28) px(8) px(16);
+            border: px(3) solid $color1;
+            border-radius: 5px;
+            color: $color1;
+            font-family: 'fb_hachaluzimbold', Arial, sans-serif;
+            font-size: px(30);
+            letter-spacing: -.3px;
+            line-height: px(15);
+            text-decoration: none;
+        }
+
+        div {
+            display: flex;
+            flex-flow: row nowrap;
+            background: url('../img/header_menu.png') no-repeat;
+            background-size: cover;
+
+            ul {
+                display: flex;
+                flex-flow: row nowrap;
+
+                li {
+                    a {
+                        display: block;
+                        margin: px(40) px(28) px(18) 0;
+                        letter-spacing: -.4px;
+                        color: $color2;
+                        font-family: 'fb_hachaluzimmedium', Arial, sans-serif;
+                        font-size: px(34);
+                        font-weight: normal;
+                        text-decoration: none;
+                    }
+
+                    &:first-child a {
+                        margin-left: px(68);
+                        font-family: 'fb_hachaluzimmedium', Arial, sans-serif;
+                    }
+                }
+            }
+
+            .logo {
+                display: block;
+
+                img {
+                    width: px(248);
+                    margin: px(14) px(204) 0 0;
+                }
+            }
+        }
+    }
+
+    .beginMove {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-end;
+        margin-top: px(244);
+        margin-right: px(476);
+        margin-bottom: px(28);
+
+        h1 {
+            margin-bottom: px(4);
+            color: $color3;
+            font-family: 'fb_constructorbold', Arial, sans-serif;
+            font-size: px(84);
+            letter-spacing: .7px;
+        }
+
+        h2 {
+            color: $color3;
+            font-family: 'fb_constructorregular', Arial, sans-serif;
+            font-size: px(78);
+            font-weight: normal;
+        }
+
+        div {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+    }
+
+    .signUp {
+        display: flex;
+        justify-content: center;
+
+        a {
+            display: block;
+            box-sizing: border-box;
+            width: px(566);
+            margin-right: px(28);
+            padding: px(14) 0 px(10);
+            border: 1px solid $color5;
+            border-radius: 5px;
+            background-color: $color4;
+            color: $color2;
+            font-family: 'fb_reformanarrowregular', Arial, sans-serif;
+            font-size: px(56);
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+& {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: px(64);
+    background-image: url('../img/stone_bg.jpg');
+    background-size: cover;
+
+    p {
+        margin-bottom: px(10);
+        color: $color1;
+        font-family: 'fb_constructorregular', Arial, sans-serif;
+        font-size: px(26);
+        letter-spacing: 0.3px;
+    }
+
+    div {
+        display: flex;
+
+        span {
+            display: inline-block;
+            margin-top: px(-4);
+            padding-left: px(10);
+            color: $color1;
+            font-size: px(26);
+            font-family: Arial, sans-serif;
+        }
+    }
+
+    a {
+        display: block;
+        margin: px(26) px(18) px(60) 0;
+        padding: px(20) px(44) px(10);
+        border: 1px solid $color3;
+        border-radius: 2px;
+        background-color: $color2;
+        color: $color1;
+        font-family: 'fb_reformanarrowmedium', Arial, sans-serif;
+        font-size: px(44);
+        text-decoration: none;
+    }
+}

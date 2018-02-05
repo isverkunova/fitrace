@@ -1,0 +1,49 @@
+& {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: px(710);
+    margin-top: px(4);
+    padding-top: px(4);
+    border-bottom: 2px solid rgba(150, 150, 150, .5);
+    background-image: url('../img/benefits_bg.jpg');
+    background-size: cover;
+
+    h3 {
+        margin-top: px(20);
+        color: $color1;
+        font-family: 'fb_constructorbold', Arial, sans-serif;
+        font-size: px(66);
+    }
+
+    p {
+        width: px(920);
+        margin: px(114) 0 px(76);
+        color: $color1;
+        font-family: 'fb_hachaluzimmedium', Arial, sans-serif;
+        font-size: px(36);
+        text-align: center;
+        line-height: px(36);
+    }
+
+    .signUp {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right: px(20);
+
+        a {
+            display: block;
+            width: px(400);
+            padding: px(18) px(20) px(6);
+            border: 1px solid $color3;
+            border-radius: 5px;
+            background-color: $color4;
+            color: $color1;
+            font-family: 'fb_reformanarrowmedium', Arial, sans-serif;
+            font-size: px(52);
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+    }
+}
