@@ -1,7 +1,0 @@
-/.sass-cache
-.idea/
-node_modules/
-dist/
-.sass-cache/
-.DS_Store
-package-lock.json
